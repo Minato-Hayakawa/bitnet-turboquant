@@ -10,9 +10,12 @@
 #SBATCH --output=bitnet-tq-gh200-%j.out
 #SBATCH --error=bitnet-tq-gh200-%j.err
 
-set -euo pipefail
+# /etc/profile.d/debuginfod.sh references an optional variable, so source the
+# site environment before enabling nounset.
+set -eo pipefail
 source /etc/profile
 module load system/qc-gh200 nvhpc
+set -u
 
 PROJECT_ROOT=${PROJECT_ROOT:-"$SLURM_SUBMIT_DIR"}
 RESULT_DIR="$PROJECT_ROOT/results/turboquant/${SLURM_JOB_ID}"
