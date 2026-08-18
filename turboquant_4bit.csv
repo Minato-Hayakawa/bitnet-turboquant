@@ -1,0 +1,3 @@
+kind,bit_width,baseline_mb,compressed_mb,ratio,layers,kv_heads,probe_tokens,cosine_similarity,top1,top5
+compression,4,289,81.2812,3.55556,,,,,,
+attention,4,,,,36,72,8,0.961721,NA,NA
