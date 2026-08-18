@@ -1,3 +1,0 @@
-[submodule "bitnet_cpp/BitNet"]
-	path = bitnet_cpp/BitNet
-	url = https://github.com/microsoft/BitNet
