@@ -1,0 +1,128 @@
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,8192,10368.0000,4896.0000,2.1176,2592.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,8192,10368.0000,3744.0000,2.7692,1944.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,8192,10368.0000,2592.0000,4.0000,1296.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,2048,2592.0000,1224.0000,2.1176,648.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 2048 tokens x 144 dims: 2916.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,2048,2592.0000,936.0000,2.7692,486.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 2048 tokens x 144 dims: 2916.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,2048,2592.0000,648.0000,4.0000,324.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 2048 tokens x 144 dims: 2916.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,4096,5184.0000,2448.0000,2.1176,1296.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 4096 tokens x 144 dims: 5832.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,4096,5184.0000,1872.0000,2.7692,972.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 4096 tokens x 144 dims: 5832.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,4096,5184.0000,1296.0000,4.0000,648.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 4096 tokens x 144 dims: 5832.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,8192,10368.0000,4896.0000,2.1176,2592.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,8192,10368.0000,3744.0000,2.7692,1944.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,8192,10368.0000,2592.0000,4.0000,1296.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 8192 tokens x 144 dims: 11664.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,16384,20736.0000,9792.0000,2.1176,5184.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 16384 tokens x 144 dims: 23328.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,16384,20736.0000,7488.0000,2.7692,3888.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 16384 tokens x 144 dims: 23328.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,16384,20736.0000,5184.0000,4.0000,2592.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 16384 tokens x 144 dims: 23328.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,4,32768,41472.0000,19584.0000,2.1176,10368.0000,4.0000
+# derived FP16 size for 36 layers x 72 KV heads x 32768 tokens x 144 dims: 46656.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,4,36,72,8,0.9958,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,3,32768,41472.0000,14976.0000,2.7692,7776.0000,5.3333
+# derived FP16 size for 36 layers x 72 KV heads x 32768 tokens x 144 dims: 46656.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,3,36,72,8,0.9841,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+compression,bit_width,context,baseline_mb,compressed_mb,ratio,ideal_compressed_mb,ideal_ratio
+kv_cache,2,32768,41472.0000,10368.0000,4.0000,5184.0000,8.0000
+# derived FP16 size for 36 layers x 72 KV heads x 32768 tokens x 144 dims: 46656.0000 MiB
+# WARNING: --baseline-mb is an external reference and does not match the supplied geometry.
+attention_fidelity,bit_width,layers_configured,kv_heads,probe_tokens,cosine_similarity,top1_token_match,top5_token_match
+attention,2,36,72,8,0.9405,NA,NA
+# Top-k needs model logits; NA prevents reporting fabricated token-accuracy values.
+wrote /hs/work0/home/users/u0001988/bitnet-turboquant/results/turboquant/353463/turboquant_memory_scaling.csv (15 measurements)
+Results: /hs/work0/home/users/u0001988/bitnet-turboquant/results/turboquant/353463
